@@ -1,0 +1,15 @@
+
+#nav-mobile a{
+  display: block;
+  text-align: center;
+  float: none;
+}
+
+.nav-wrapper{
+
+  background-color: teal;
+
+}
+li:active{
+  background-color: red;
+}

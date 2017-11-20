@@ -1,0 +1,15 @@
+<div class = "collection">
+  <a *ngFor="let blog of blogs1 " >
+
+    <a *ngIf="blog.category == 'Religion'" class="collection-item">
+
+        <b style="font-size: large; color: teal; ">{{blog.name}} </b>
+        <sub style="font-style: italic; float: right;">Posted by: {{blog.postedby}}</sub><br>
+      <p style="color: black">
+          {{blog.desc}}</p>
+      <hr>
+    </a>
+
+  </a>
+</div>
+
